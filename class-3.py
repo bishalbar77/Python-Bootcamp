@@ -12,7 +12,7 @@ print(name + str(3))
 
 marks = int(input("Please enter your marks between 0 - 100 : "))
 
-# Nested Looping
+# Nested if else
 # User have passsed or not
 if(marks < 40):
     print("You have failed")
