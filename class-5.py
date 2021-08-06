@@ -4,7 +4,7 @@ What are the disadvantages in using Python :-
 2. Memory Consumption - Python is not a good choice for memory intensive tasks.
 3. Runtime Errors - Error handling is not that great in Python
 '''
-# Floating Number :- Number is not an integer whole
+# Floating Number :- Written with a decimal point dividing the integer
 import random
 marks = 10
 divide = marks/3 # Decimal/Floating variable
