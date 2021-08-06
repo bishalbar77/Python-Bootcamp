@@ -1,5 +1,5 @@
 '''
-Disadvantages of Python :-
+What are the disadvantages in using Python :-
 1. Speed - Python is slower than C or C++.
 2. Memory Consumption - Python is not a good choice for memory intensive tasks.
 3. Runtime Errors - Error handling is not that great in Python
