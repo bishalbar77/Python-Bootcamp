@@ -16,16 +16,16 @@ File Size
 '''
 
 # For single comments
-# import pattern
-# pattern.pattern2()
+import pattern
+pattern.pattern2()
 
 '''
-1. Import the package by import file name
-2. file_name.function_name
+1. Import the package by "import file_name"
+2. Call the function you want to run by file_name.function_name()
 '''
 
-# import somePackage
-# somePackage.pattern1()
+import somePackage
+somePackage.pattern1()
 
 import pattern
 pattern.pattern2()
