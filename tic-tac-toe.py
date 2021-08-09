@@ -3,7 +3,7 @@ Steps followed:
 1. Board Design
 2. Update board (User input on board)
 3. Play game
-4. Handle player (switch between X and O)
+4. Handle turn (switch between X and O)
 5. Check if game is over - Who wins
     - check for rows
     - check for column
@@ -39,18 +39,22 @@ def display_board():
     print(board[6] + " | " + board[7] + " | " + board[8] + "    7 | 8 | 9")
     print("\n")
 
-def handle_player():
+# Check if current user has valid input or not 
+def handle_turn():
     return
 
+# Check if game over
 def check_if_game_over():
     return
 
+# Flip the current player to next player
 def flip_player():
     return
 
+# Play the game
 def play_game():
     display_board()
-    handle_player()
+    handle_turn()
     check_if_game_over()
     flip_player()
 
