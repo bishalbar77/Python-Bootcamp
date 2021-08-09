@@ -15,11 +15,12 @@ Steps followed:
 Starting point computer case => 0
 Instead of 1
 '''
+# Access a index position in list
+students =  ["Rohan", "Subham" , "Aditya", 'John', "Rutuja" ] # List Variable
+students[2] = "Manoj"
+print(students)
 
-# students =  ["Rohan", "Subham" , "Aditya", 'John', "Rutuja" ] # List Variable
-# students[2] = "Manoj"
-# print(students)
-
+# Design the board
 board = [
         "-", "-", "-",
         "-", "-", "-",
@@ -28,8 +29,9 @@ board = [
 # userInput = int(input())
 # board[userInput - 1] = "X"
 
-has_won = None
+has_won = None  # To store the winner name
 
+# Display the board with updated user input
 def display_board():
     print("\n")
     print(board[0] + " | " + board[1] + " | " + board[2] + "    1 | 2 | 3")
