@@ -187,3 +187,11 @@ def play_game():
         print("Game Tie")
 
 play_game()
+
+'''
+Program Execution
+1. line 189 playgame()
+2. line 176 display_board()
+3. line 179 is game_is_still_going : True
+4. line 180 Handle Turn
+'''
