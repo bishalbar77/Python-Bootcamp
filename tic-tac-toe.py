@@ -34,6 +34,9 @@ board = [
 
 has_won = None  # To store the winner name
 
+player_1_coin = 0
+player_2_coin = 0
+
 game_is_still_going = True  # To check if the game is still going on
 
 current_player = "X"  #  To store the current player
@@ -41,6 +44,11 @@ current_player = "X"  #  To store the current player
 # Display the board with updated user input
 def display_board():
     print("\n")
+    # print(board[0] + " | " + board[1] + " | " + board[2] + " | " + board[3] + "    1 | 2 | 3 | 4")
+    # print(board[4] + " | " + board[5] + " | " + board[6] + " | " + board[7] + "    4 | 5 | 6 | 7")
+    # print(board[8] + " | " + board[9] + " | " + board[10] + " | " + board[11] + "    8 | 9 | 10 | 11")
+    # print(board[12] + " | " + board[13] + " | " + board[14] + " | " + board[15] + "    12 | 13 | 14 | 15")
+
     print(board[0] + " | " + board[1] + " | " + board[2] + "    1 | 2 | 3")
     print(board[3] + " | " + board[4] + " | " + board[5] + "    4 | 5 | 6")
     print(board[6] + " | " + board[7] + " | " + board[8] + "    7 | 8 | 9")
@@ -173,6 +181,8 @@ def flip_player():
 
 # Play the game
 def play_game():
+    global player_1_coin
+    global player_2_coin
     display_board()
     
     # To check if the game is still running
@@ -181,10 +191,18 @@ def play_game():
         check_if_game_over()
         flip_player()
 
+    if has_won == "X":
+        player_1_coin = player_1_coin + 1
+    if has_won == "O":
+        player_2_coin = player_2_coin + 1
+
     if has_won == "X" or has_won == "O":
         print("Our winner is "+has_won)
     elif has_won == None:
         print("Game Tie")
+
+    print("Player 1 current coins " + str(player_1_coin))
+    print("Player 2 current coins " + str(player_2_coin))
 
 play_game()
 

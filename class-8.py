@@ -2,7 +2,7 @@
 # Type Casting - Converting one data type into another
 # How to import other package or file
 import somePackage
-somePackage.pattern1()
+somePackage.sum()
 
 name = "Rutuja"
 
