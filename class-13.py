@@ -43,5 +43,11 @@ marker.left(90)
 # Next bottom sqaure
 marker.forward(100)
 marker.right(90)
+marker.forward(100)
+marker.right(90)
+marker.forward(100)
+marker.right(90)
+marker.forward(100)
+marker.right(90)
 
 done() 
