@@ -68,22 +68,22 @@ star(-140,150)
 star(-60,150)
 
 # Second line with four stars
-star(-300,110)
-star(-220,110)
-star(-140,110)
-star(-60,110)
+star(-300,105)
+star(-220,105)
+star(-140,105)
+star(-60,105)
 
 # Third line with four stars
-star(-300,70)
-star(-220,70)
-star(-140,70)
-star(-60,70)
+star(-300,60)
+star(-220,60)
+star(-140,60)
+star(-60,60)
 
 # Fourth line with four stars
-star(-300,30)
-star(-220,30)
-star(-140,30)
-star(-60,30)
+star(-300,15)
+star(-220,15)
+star(-140,15)
+star(-60,15)
 
 turtle.done()
 
